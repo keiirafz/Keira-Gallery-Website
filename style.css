@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.square img {
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 35%;
+    padding: 5px 10px;
+}
+.navigation {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: #d4393a;
+}
+th {
+    width: 1%;
+}
+.nav-blablas {
+    width: 20%;
+    text-align: right;
+    color: white;
+    padding: 0 5px;
+}
+table a {
+    color: white;
+    text-decoration: none;
+}
+.banner {
+    position: relative;
+    text-align: center;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    background-color: #3776b9;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+.banner-subtext {
+    font-size: 25px;
+    margin-top: 10px;
+    display: block;
+  }
+.footer {
+    color: white;
+    background-color:#d4393a;
+    text-align: center;
+    width: 100%;
+    padding: 7px 0;
+}
+
+/* home html */
+.home-table {
+    padding: 3%;
+    border-collapse: separate;
+}
+.home-card {
+    width: 95%;
+    height: 500px;
+    background-color:#4a3b3f;
+    padding: 5% 0%;
+    border-radius: 20px;
+}
+.home-card img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    padding: 10px 10px;
+}
+
+/* gallery html */
+.gallery-table {
+    padding: 3%;
+    width:100%;
+}
+.gallery-table img {
+    object-fit: cover;
+    border-radius: 10%;
+    padding: 10px 10px;
+}
+.gallery-table h2, h3 {
+    color: white;
+}
+#landscape-img {
+    width: 80%;
+}
+#landscape-img:hover {
+    width: 100%;
+}
+#portrait-img {
+    width: 80%;
+}
+#portrait-img:hover {
+    width: 100%;
+}
+
+/* about me html */
+.about-me-text {
+    color: #3776b9;
+    text-align: center;
+}
+.about-me-text p {
+    color: white;
+}
+.about-me-text img {
+    object-fit: cover;
+    border-radius: 10%;
+    padding: 10px 10px;
+    width: 50%;
+    height: 50%;
+}
+.container {
+    margin: 30px 30px;
+}
+#about-me-pic {
+    border-radius: 50% 50% 0 0;
+    border: 5px solid #f9ae18;
+}
+#icon{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 35%;
+    padding: 5px 10px;
+    color: white;
+}
+#contact-me {
+    width: 300px;
+    margin: 10px auto;
+}
+#contact-me p {
+    text-align: left;
+}
